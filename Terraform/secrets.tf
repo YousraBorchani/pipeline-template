@@ -1,5 +1,5 @@
 resource "aws_secretsmanager_secret" "simple-web-app" {
-  name = "simple-web-app"
+  name = "secret-simple-web-app"
 }
 
 resource "aws_secretsmanager_secret_version" "simple-web-app" {
